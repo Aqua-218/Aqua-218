@@ -102,17 +102,17 @@ JavaScript engine companion for Selenet
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=menchan-Rub&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SeleniaProject&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=menchan-Rub&layout=compact&langs_count=16&theme=github_dark&border_radius=10&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SeleniaProject&layout=compact&langs_count=16&theme=github_dark&border_radius=10&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=menchan-Rub&theme=github-dark-blue&border_radius=10&background=0D1117&border=30363D&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="streak stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SeleniaProject&theme=github-dark-blue&border_radius=10&background=0D1117&border=30363D&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="streak stats"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=menchan-Rub&theme=github-compact&custom_title=Contribution%20Graph&hide_border=true&border_radius=10&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SeleniaProject&theme=github-compact&custom_title=Contribution%20Graph&hide_border=true&border_radius=10&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF" />
 </div>
 
 ## 🎯 Development Philosophy
