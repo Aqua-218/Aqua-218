@@ -1,4 +1,4 @@
-# ⚡ Aether - Systems Architect & AI Engineer
+# ⚡ Aqua - Systems Architect & AI Engineer
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Systems+Architect+%26+AI+Engineer;Building+Tomorrow's" alt="Typing SVG" />
@@ -250,7 +250,7 @@ Feel free to reach out for technical discussions, open source contributions, or 
 
 <div align="center">
   
-[![GitHub](https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github)](https://github.com/menchan-Rub)
+[![GitHub](https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github)](https://github.com/Aqua-218)
 [![Email](https://img.shields.io/badge/Email-Technical%20Discussions-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
 </div>
