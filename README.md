@@ -13,63 +13,13 @@
 I'm passionate about reimagining computing from the ground up. My work focuses on creating next-generation systems that challenge conventional approaches to operating systems, programming languages, and infrastructure.
 
 ```typescript
-const aether = {
+const Aqua = {
   focus: ["Systems Programming", "Operating Systems", "Compiler Design"],
   languages: ["Rust", "Go", "TypeScript", "Python"],
   architecture: "Pure Rust for systems, modern languages for tooling",
   philosophy: "Zero-compromise solutions with memory safety by design"
 };
 ```
-
-## 🔥 Current Projects
-
-### 🌌 AetherOS
-Next-generation operating system built from scratch
-- **Focus**: Performance, security, and modern hardware utilization
-- **Stack**: Rust, WebAssembly, custom bootloader
-- **Goal**: Leaner than traditional OS, optimized for contemporary computing
-
-### ⚡ Orizon
-High-performance systems programming language
-- **Innovation**: Dependent Types 2.0, Linear Logic Integration
-- **Compiler**: Built with Go for 2-5x faster compilation
-- **Target**: Zero-cost abstractions with enhanced type safety
-
-### 🛡️ Zerovisor
-Modern hypervisor for next-gen virtualization
-- **Design**: Superior performance and security with Pure Rust
-- **Architecture**: Ground-up redesign of virtualization concepts
-- **Purpose**: Secure, efficient application isolation without C dependencies
-
-### 🌐 Nyx
-Privacy-focused anonymous networking protocol
-- **Mission**: True privacy and censorship resistance
-- **Integration**: Deep OS-level privacy features
-- **Innovation**: Advanced routing and encryption techniques
-
-### 💻 NexuShell
-Modern shell environment transcending traditional limitations
-- **Design**: Intuitive, powerful, and adaptive
-- **Features**: Enhanced scripting and automation capabilities
-- **Philosophy**: Bridging the gap between power and usability
-
-### 🌐 Selenia Web Server (SWS)
-High-performance web server built in Rust
-- **Performance**: Blazing-fast HTTP/HTTPS handling
-- **Architecture**: Async-first design with zero-copy optimizations
-- **Features**: Modern web standards with security-first approach
-
-### 🌍 Selenet Browser
-Next-generation web browser built from scratch
-- **Engine**: Custom rendering engine optimized for performance
-- **Stack**: Pure Rust implementation
-- **Vision**: Privacy-focused browsing with modern web compatibility
-
-### ⚡ AeroJS
-JavaScript engine companion for Selenet
-- **Performance**: Optimized JS execution for web applications
-- **Integration**: Seamless browser-engine integration
-- **Design**: Modern ECMAScript support with security enhancements
 
 ## 🛠️ Tech Stack
 
@@ -102,17 +52,17 @@ JavaScript engine companion for Selenet
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SeleniaProject&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aqua-218t&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SeleniaProject&layout=compact&langs_count=16&theme=github_dark&border_radius=10&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aqua-218&layout=compact&langs_count=16&theme=github_dark&border_radius=10&bg_color=0D1117&title_color=00D4FF&text_color=C9D1D9&border_color=30363D"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SeleniaProject&theme=github-dark-blue&border_radius=10&background=0D1117&border=30363D&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="streak stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aqua-218&theme=github-dark-blue&border_radius=10&background=0D1117&border=30363D&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="streak stats"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SeleniaProject&theme=github-compact&custom_title=Contribution%20Graph&hide_border=true&border_radius=10&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aqua-218&theme=github-compact&custom_title=Contribution%20Graph&hide_border=true&border_radius=10&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF" />
 </div>
 
 ## 🎯 Development Philosophy
@@ -132,110 +82,6 @@ JavaScript engine companion for Selenet
 - **Formal Verification**: Using tools like TLA+ for correctness guarantees
 - **No Legacy Dependencies**: Building without C/C++ dependencies
 - **Future-Proof Design**: Building for tomorrow's computing landscape
-
-## 🌐 Featured Code Snippets
-
-<details>
-<summary>🦀 AetherOS Kernel Boot</summary>
-
-```rust
-#[no_mangle]
-pub extern "C" fn kernel_main() -> ! {
-    aether_os::memory::init_allocator();
-    aether_os::interrupts::init_idt();
-    aether_os::scheduler::start_multitasking();
-    
-    // Enter main system loop
-    aether_os::kernel::run();
-}
-```
-
-</details>
-
-<details>
-<summary>⚡ Orizon Compiler Core</summary>
-
-```go
-func compileOrizon(source string) (*Bytecode, error) {
-    ast, err := orizon_parser.Parse(source)
-    if err != nil {
-        return nil, err
-    }
-    
-    // Type checking with dependent types
-    if err := orizon_types.CheckDependentTypes(ast); err != nil {
-        return nil, err
-    }
-    
-    // Generate optimized IR
-    ir := orizon_codegen.GenerateIR(ast)
-    return orizon_codegen.EmitBytecode(ir), nil
-}
-```
-
-</details>
-
-<details>
-<summary>🌐 Selenia Web Server Performance</summary>
-
-```rust
-use tokio::net::TcpListener;
-use selenia_core::{HttpRequest, HttpResponse};
-
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let listener = TcpListener::bind("127.0.0.1:8080").await?;
-    
-    loop {
-        let (stream, _) = listener.accept().await?;
-        tokio::spawn(async move {
-            selenia_http::handle_connection(stream).await;
-        });
-    }
-}
-```
-
-</details>
-
-<details>
-<summary>🌍 Selenet Browser Engine</summary>
-
-```rust
-pub struct SelenetEngine {
-    dom_parser: DOMParser,
-    css_engine: CSSEngine,
-    js_runtime: AeroJSRuntime,
-}
-
-impl SelenetEngine {
-    pub async fn load_page(&mut self, url: &str) -> Result<Page, BrowserError> {
-        let html = self.fetch_resource(url).await?;
-        let dom = self.dom_parser.parse(html)?;
-        let styles = self.css_engine.compute_styles(&dom)?;
-        
-        Ok(Page::new(dom, styles))
-    }
-}
-```
-
-</details>
-
-## 🎨 Project Showcase
-
-<div align="center">
-  
-| Project | Language | Focus | Status |
-|---------|----------|-------|--------|
-| 🌌 **AetherOS** | Rust | Operating System | 🚧 In Development |
-| ⚡ **Orizon** | Go | Programming Language | 🚧 In Development |
-| 🛡️ **Zerovisor** | Rust | Hypervisor | 🚧 In Development |
-| 🌐 **Nyx** | Rust | Anonymous Network | 🚧 In Development |
-| 🌐 **Selenia Web Server** | Rust | High-Performance Web Server | 🚧 In Development |
-| 🌍 **Selenet Browser** | Rust | Web Browser Engine | 🚧 In Development |
-| ⚡ **AeroJS** | Rust | JavaScript Engine | 🚧 In Development |
-| 💻 **NexuShell** | Rust/Go | Shell Environment | 🚧 In Development |
-
-</div>
 
 ## 🤝 Collaboration & Contact
 
