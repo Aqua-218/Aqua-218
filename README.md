@@ -131,7 +131,7 @@ fn main() {
 ### `>_ cat ~/awards.txt`
 
 ```
-U-22 Programming Contest 2025  METI Director-General Award
+U-22 Programming Contest 2025  Director-General of the Commerce and Information Bureau, Ministry of Economy, Trade and Industry Award
 ```
 
 ---
